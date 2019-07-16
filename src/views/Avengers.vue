@@ -1,8 +1,7 @@
 <template>
-  <div class="home">
+  <div class="avengers">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <h1>this is home view</h1>
+    <h1>this is characters view</h1>
   </div>
 </template>
 
@@ -12,10 +11,7 @@ import HelloWorld from '@/components/HelloWorld.vue';
 import AvengersService from '@/services/AvengersService';
 
 export default {
-  name: 'home',
-  components: {
-    HelloWorld,
-  },
+  name: 'avengers',
   async created() {
     try {
       const characters = await AvengersService.getCharacters();
