@@ -4,10 +4,17 @@
 
 // URL -> http://gateway.marvel.com/v1/public/comics?ts=1&apikey=9844afe08ebb6195b6e1c1152dffba78&hash=5ae46823c1dfd7de7f6273d75c3d14ba
 
+import axios from 'axios'
+
 const host = 'http://gateway.marvel.com/v1/public/'
 const apiKey = 'apikey=9844afe08ebb6195b6e1c1152dffba78'
+const hash = 'hash=5ae46823c1dfd7de7f6273d75c3d14ba'
 
 export default {
 
+    async getCharacters() {
+        const dataCharacters = await axios.get(`${host}characters?ts=1&${apiKey}&${hash}`)
+        return dataCharacters.data.data.results
+    }
 
 }
