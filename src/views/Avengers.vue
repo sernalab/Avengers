@@ -1,16 +1,22 @@
 <template>
-  <div class="avengers">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <h1>this is characters view</h1>
+  <div class="container avengers">
+    <div class="row flex-direction flex-column">
+      <h1>TOP AVENGERS</h1>
+      <Card />
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import AvengersService from '@/services/AvengersService';
+import Card from '@/components/Card'
 
 export default {
   name: 'avengers',
+  components: {
+    Card
+  },
   async created() {
     try {
       const characters = await AvengersService.getCharacters();
@@ -19,6 +25,6 @@ export default {
     } catch (e) {
       console.log(e);
     }
-  },
+  }
 };
 </script>
