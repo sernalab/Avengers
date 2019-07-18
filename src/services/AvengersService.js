@@ -3,6 +3,8 @@
 // Hash (1+privateKey+publicKey) -> 5ae46823c1dfd7de7f6273d75c3d14ba
 
 // URL -> http://gateway.marvel.com/v1/public/comics?ts=1&apikey=9844afe08ebb6195b6e1c1152dffba78&hash=5ae46823c1dfd7de7f6273d75c3d14ba
+// SuperHero Api token -> 10217572578603613 // Example -> https://superheroapi.com/api/10217572578603613/70
+
 
 import axios from 'axios'
 
