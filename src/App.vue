@@ -1,12 +1,20 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Search</router-link> |
-      <router-link to="/card-game">Card Game</router-link>
-    </div>
+    <Menu />
     <router-view/>
   </div>
 </template>
+
+<script>
+import Menu from '@/components/Menu/Menu'
+
+export default {
+  components: {
+    Menu
+  }
+}
+</script>
+
 
 <style src="./assets/scss/styles.scss" lang="scss">
 

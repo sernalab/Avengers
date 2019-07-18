@@ -1,0 +1,18 @@
+.menu {
+    background-color: black;
+    &__logo {
+        img {
+            height: 50px;
+            width: 100px;
+        }
+    }
+    .search {
+        input {
+            height: 25px;
+        }
+    }
+    .btn {
+        color: white;
+        border-color: white;
+    }
+}
