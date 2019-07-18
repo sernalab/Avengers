@@ -11,6 +11,7 @@ import axios from 'axios'
 const host = 'http://gateway.marvel.com/v1/public/'
 const apiKey = 'apikey=9844afe08ebb6195b6e1c1152dffba78'
 const hash = 'hash=5ae46823c1dfd7de7f6273d75c3d14ba'
+// const topAvengersId = ['1009220', '1009351', '1009368', '1009189', '1009664', '1009610', '1009718', '1009262', '1009215']
 
 export default {
 
