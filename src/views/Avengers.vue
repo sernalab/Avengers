@@ -7,7 +7,6 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
 import AvengersService from '@/services/AvengersService';
 
 export default {
