@@ -19,5 +19,14 @@
         margin: 0 10px;
     }
   }
+  .slider {
+    overflow: scroll;
+    &__card {
+      &:hover {
+        transform: translate3d($moveLeft, 0, 0);
+        transform: scale($growFactor);
+        opacity: 1;
+      }
+    }
+  }
 }
-
