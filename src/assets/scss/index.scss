@@ -12,16 +12,17 @@
     margin: 40px 0 0;
   }
   ul {
-      list-style-type: none;
-      padding: 0;
-      li {
-        display: inline-block;
-        margin: 0 10px;
-    }
+    list-style-type: none;
+    padding: 0;
+    li {
+      display: inline-block;
+      margin: 0 10px;
+  }
   }
   .slider {
     overflow: scroll;
     &__card {
+      margin: 0 10px;
       &:hover {
         transform: translate3d($moveLeft, 0, 0);
         transform: scale($growFactor);

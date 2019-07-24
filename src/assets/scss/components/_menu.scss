@@ -1,21 +1,21 @@
 .menu {
-    background-color: black;
-    &__logo {
-        img {
-            height: 50px;
-            width: 100px;
-        }
+  background-color: black;
+  &__logo {
+    img {
+      height: 50px;
+      width: 100px;
     }
-    .card-game {
-        color: white;
+  }
+  .card-game {
+    color: white;
+  }
+  .search {
+    input {
+      height: 25px;
     }
-    .search {
-        input {
-            height: 25px;
-        }
-    }
-    .btn {
-        color: white;
-        border-color: white;
-    }
+  }
+  .btn {
+    color: white;
+    border-color: white;
+  }
 }
