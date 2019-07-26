@@ -5,8 +5,8 @@
                 <img src="@/assets/marvel-logo.svg" alt="Marvel">
             </router-link>
         </div>
-        <router-link to="/card-game" class="card-game">Avengers Card Game</router-link>
         <Search />
+        <router-link to="/card-game" class="card-game">Avengers Card Game</router-link>
     </div>
 </template>
 
